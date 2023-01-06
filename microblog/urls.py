@@ -1,6 +1,6 @@
 
 from django.contrib import admin
-from django.urls import path
+from django.conf.urls import path
 
 from blog.views import frontpage, post_detail
 
